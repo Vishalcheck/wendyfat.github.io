@@ -125,8 +125,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Market Research', 'Data Analysis', 'Brand Management', 'Digital Marketing', 
-  'SPSS', 'Tableau', 'MS Office', 'Python'];
+  const skills = [
+    'Bilingual Hosting (Mandarin, Taiwanese Hokkien, English, Korean)',
+    'Wedding Banquet Hosting',
+    'Traditional Chinese Wedding Etiquette Planning',
+    'Engagement & Tea Ceremonies',
+    'Witness Ceremony Hosting',
+    'Wedding Video Editing',
+    'Baby Gender Prediction Party Hosting',
+    'Baby’s 120 Days Party Planning',
+    'Baby’s 1st Birthday Party Hosting',
+    'Team Building Activities',
+    'Year-End Parties',
+    'Opening Ceremonies',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,32 +148,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            With a core specialization in Marketing &amp; Strategy, I've orchestrated impactful
-             strategies in brand perceptions during my MBA summer internship for {' '}
-             <a href="https://www.tatastructura.com">Tata Structura</a> {' '} at{' '} 
-             <a href="https://drive.google.com/file/d/1xhGTFz7pe6kP7bZ4peDgJ7hlG630K8rz/view?usp=sharing">Tata Steel</a>.
+              Hi, I’m Wendy, a passionate and professional bilingual event host fluent in Mandarin, 
+              Taiwanese Hokkien, English, and Korean. I specialize in creating memorable events, 
+              from weddings and baby celebrations to corporate gatherings. With a focus on detail 
+              and cultural understanding, I ensure every event is warm, engaging, and tailored 
+              to your needs.
             </p>
 
             <p>
-            I also spearheaded employer branding initiatives for {' '}
-            <a href="https://drive.google.com/file/d/1w-uN9jb86pxFXPYMDu_78P-d1CZJAx3V/view?usp=sharing">
-              Aditya Birla Fashion and Retail</a>, {' '} resulting in a remarkable 37% surge in consumer engagement 
-              during my remote live project as part of my MBA journey.
+              My wedding-related services include hosting banquets, planning traditional Chinese 
+              wedding ceremonies (including tea ceremonies and welcoming the bride), witness 
+              ceremonies, and wedding video editing to capture your cherished moments. For baby 
+              events, I offer hosting and planning for gender prediction parties, 120-day 
+              celebrations, and 1st birthdays, ensuring every milestone is celebrated beautifully. 
+              Additionally, I bring professionalism and creativity to team-building activities, 
+              year-end parties, opening ceremonies, and other special occasions.
             </p>
 
             <p>
-            During my tenure at {' '} <a href="https://www.amdocs.com">Amdocs</a>, {' '} 
-            where I served as a Software Developer, I had the honor of being selected as one of 16 elite {' '} 
-            <a href="https://drive.google.com/file/d/16BGu5InZZDGCtoWas560ezwKsgVBKbI9/view?usp=sharing">Innovation Agents</a>.
+              Let me help make your next event extraordinary. Here are some of the services I 
+              specialize in:
             </p>
-
-            <p>
-            Moreover, my role as a {' '} <a href="https://drive.google.com/file/d/1iRTZfE7v5Y99BYZVxevaGBVtF90t-TOb/view?usp=sharing">
-              Placement Coordinator</a> {' '} at IIM Rohtak saw me cultivate over 30 new corporate relationships, culminating in a 
-              remarkable 42% boost in campus placements.
-            </p>
-
-            <p>My skills are not limited to this list!</p>
           </div>
 
           <ul className="skills-list">
@@ -177,7 +184,7 @@ const About = () => {
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
+              alt="Wendy"
             />
           </div>
         </StyledPic>
